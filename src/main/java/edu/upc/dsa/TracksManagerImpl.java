@@ -45,7 +45,6 @@ public class TracksManagerImpl implements TracksManager {
         for (Track t: this.tracks) {
             if (t.getId().equals(id)) {
                 logger.info("getTrack("+id+"): "+t);
-
                 return t;
             }
         }

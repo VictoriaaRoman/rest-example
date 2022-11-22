@@ -102,7 +102,6 @@ public class TracksService {
             @ApiResponse(code = 500, message = "Validation Error")
 
     })
-
     @Path("/")
     @Consumes(MediaType.APPLICATION_JSON)
     public Response newTrack(Track track) {
